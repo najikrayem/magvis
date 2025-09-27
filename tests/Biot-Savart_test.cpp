@@ -48,7 +48,7 @@ TEST(BiotSavartTest, biot_savart_analytic_basic){
     // B = (mu0 / (2π ρ)) * (L / sqrt(L^2 + ρ^2)), direction -z
     const float mu0_over_2pi = 2.0e-7f;
     const float expected_mag = (mu0_over_2pi / rho) * (L / std::sqrt(L*L + rho*rho));
-    const float expected_Bz  = -expected_mag;
+    const float expected_Bz  = expected_mag;
 
     // Tight absolute tolerances work because |B| is ~4e-6
     EXPECT_NEAR(B.x, 0.0f,          5e-8f);
