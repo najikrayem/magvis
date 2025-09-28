@@ -73,6 +73,14 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xtree": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "bitset": "cpp",
+        "complex": "cpp",
+        "coroutine": "cpp",
+        "expected": "cpp",
+        "filesystem": "cpp",
+        "regex": "cpp",
+        "source_location": "cpp",
+        "span": "cpp"
     }
 }
